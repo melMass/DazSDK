@@ -1,2 +1,5 @@
 build/
 .history/
+
+bin/Mac32
+lib/Mac32
