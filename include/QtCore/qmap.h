@@ -236,7 +236,7 @@ public:
         QMapData::Node *i;
 
     public:
-        typedef std::__1::bidirectional_iterator_tag iterator_category;
+        typedef std::bidirectional_iterator_tag iterator_category;
         typedef qptrdiff difference_type;
         typedef T value_type;
         typedef T *pointer;
@@ -304,7 +304,7 @@ public:
         QMapData::Node *i;
 
     public:
-        typedef std::__1::bidirectional_iterator_tag iterator_category;
+        typedef std::bidirectional_iterator_tag iterator_category;
         typedef qptrdiff difference_type;
         typedef T value_type;
         typedef const T *pointer;

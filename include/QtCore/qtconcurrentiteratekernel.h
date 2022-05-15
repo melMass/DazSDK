@@ -151,7 +151,7 @@ public:
 };
 
 #ifndef QT_NO_STL
-inline bool selectIteration(std::__1::bidirectional_iterator_tag)
+inline bool selectIteration(std::bidirectional_iterator_tag)
 {
     return false; // while
 }
@@ -161,7 +161,7 @@ inline bool selectIteration(std::forward_iterator_tag)
     return false; // while
 }
 
-inline bool selectIteration(std::__1::random_access_iterator_tag)
+inline bool selectIteration(std::random_access_iterator_tag)
 {
     return true; // for
 }
